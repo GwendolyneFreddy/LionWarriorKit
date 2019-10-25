@@ -113,15 +113,16 @@ Disadvantages:
 
 Meow! The lion is pretty strong. Its stats are very random, so it will probably need to be revised. 
 
-<img src="jl#zulu/readme/zulu2.png">
+<img src="jl%23zulu/readme/zulu2.png">
+[[jl#zulu/readme/zulu2.png]]
 
 Can't use armour! (Don't even mention the name of the... well, d00d.) This also shows off the nifty AC bonus.
 
-<img src="jl#zulu/readme/zulu1.png">
+<img src="jl%23zulu/readme/zulu1.png">
 
 Showing off the lion paperdoll...
 
-<img src="jl#zulu/readme/zulu3.png">
+<img src="jl%23zulu/readme/zulu3.png">
 <div align="right"><a href="#top">Back to top</a></div>
 
 
