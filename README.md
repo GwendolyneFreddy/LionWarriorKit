@@ -53,7 +53,7 @@ Kit revisions
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-chanter.exe**, uninstall the previously installed main component and delete the chanter folder.</em>
+<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-jl#zulu.exe**, uninstall the previously installed main component and delete the jl#zulu folder.</em>
 
 <em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
 
@@ -69,15 +69,15 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a chanter folder and a setup-chanter.exe file in your game folder. To install, simply double-click **setup-chanter.exe** and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a jl#zulu folder and a setup-jl#zulu.exe file in your game folder. To install, simply double-click **setup-jl#zulu.exe** and follow the instructions on screen.
 
-Run **setup-chanter.exe** in your game folder to reinstall, uninstall or otherwise change the component settings.
+Run **setup-jl#zulu.exe** in your game folder to reinstall, uninstall or otherwise change the component settings.
 
 ## 
 
 #### Note for Complete Uninstallation
 
-In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-chanter --uninstall`** at the command line to remove all components without wading through prompts.</br>
+In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-jl#zulu --uninstall`** at the command line to remove all components without wading through prompts.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -113,15 +113,15 @@ Disadvantages:
 
 Meow! The lion is pretty strong. Its stats are very random, so it will probably need to be revised. 
 
-<img src="butchery/readme/zulu2.png">
+<img src="jl#zulu/readme/zulu2.png">
 
 Can't use armour! (Don't even mention the name of the... well, d00d.) This also shows off the nifty AC bonus.
 
-<img src="butchery/readme/zulu1.png">
+<img src="jl#zulu/readme/zulu1.png">
 
 Showing off the lion paperdoll...
 
-<img src="butchery/readme/zulu3.png">
+<img src="jl#zulu/readme/zulu3.png">
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -158,16 +158,15 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 2.0.0 (, 2019)
 
-- Renamed Setup-ChanterKit.tp2 -> chanterkit.tp2 to support AL|EN's "Project Infinity".
-- Added chanterkit.ini metadata file to support AL|EN's "Project Infinity".
+- Renamed Setup-zulu.tp2 -> jl#zulu.tp2 to support AL|EN's "Project Infinity".
+- Added jl#zulu.ini metadata file to support AL|EN's "Project Infinity".
 - Lion pawn (jl#zpaw.itm): Added magical flag (BIT6), plus EE: Forbid off-hand weapon (BIT13) and EE/Ex: Undispellable (BIT24) according to the game.
 - Shapeshift: Lion ability (jl#zpoly.spl): Added ability description strref to fit EE games. Added Ignore dead/wild magic (BIT14) EE:Ex Castable when silences (BIT25).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 - Reorganized component (DESIGNATED number).
 - Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 - Replaced AUTHOR keyword with SUPPORT.
-- Updated and renamed readme file to <em>chanterkit-readme-%LANGUAGE%</em>.
-- Updated French and English translations (Gwendolyne).
+-- Updated French and English translations (Gwendolyne).
 
 ## 
 
