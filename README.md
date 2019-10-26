@@ -16,7 +16,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></center></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#screenshots">Screenshots</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></center></br>
 </div>
 
 <hr>
@@ -36,13 +36,19 @@ I have no idea if this is anywhere near balanced. I'm very very open to all sort
 
 ## <a name="compat" id="compat"></a>Compatibility
 
-This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
+This mod is designed to work on the following Infinity Engine games:
+- The series of Enhanced Editions published by Beamdog, which includes Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE). The BGEE Siege of Dragonspear expansion (SoD) is supported as well. All of the Enhanced Edition games include the original expansion packs, e.g. IWDEE includes Heart of Winter and Trials of the Luremaster.
+- The original Baldur's Gate II (BG2, or just SoA), with the Throne of Bhaal (ToB) expansion.
+- The conversion projects Baldur's Gate Trilogy (BGT), Baldur's Gate Tutu (Tutu) and Enhanced Edition Trilogy (EET).
 
 This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
 
+Though I am striving to make Shuri-Ninja compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
 
-Kit revisions
+- Lion Warrior is not compatible with Kit Revisions which modifies vanilla kensai abilities.
 
+
+Classical games players are also strongly recommended to download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -58,6 +64,12 @@ Kit revisions
 <em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
 
 **Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
+
+## 
+
+#### Special Note for Siege of Dragonspear from Steam/GOG
+
+Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must run a program called <a href="https://forums.beamdog.com/discussion/50441/modmerge-merge-your-steam-gog-zip-based-dlc-into-something-weidu-nearinfinity-dltcep-can-use/p1">Modmerge</a> on your SoD installation before you can install this or any other WeiDU-based mod.
 
 ## 
 
@@ -113,16 +125,15 @@ Disadvantages:
 
 Meow! The lion is pretty strong. Its stats are very random, so it will probably need to be revised. 
 
-<img src="jl%23zulu/readme/zulu2.png">
-[[jl#zulu/readme/zulu2.png]]
+<center><img src="jl%23zulu/readme/zulu2.png"></center>
 
 Can't use armour! (Don't even mention the name of the... well, d00d.) This also shows off the nifty AC bonus.
 
-<img src="jl%23zulu/readme/zulu1.png">
+<center><img src="jl%23zulu/readme/zulu1.png"></center>
 
 Showing off the lion paperdoll...
 
-<img src="jl%23zulu/readme/zulu3.png">
+<center><img src="jl%23zulu/readme/zulu3.png"></center>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -139,7 +150,6 @@ Showing off the lion paperdoll...
 - Original idea: <a href="http://www.shsforums.net/user/8913-scipio/">Scipio</a>
 - Gwendolyne: Fixed translations and released version 2.0.0.
 - Deratiseur: Provided French translation, the EE compatible version and released version 1.5.
-- Special thanks to GeN1e, Jarno Mikkola, Icendoan, smoky tune, the bigg, and Zauberbratsche at the SHS forums for their help and/or advice..
 
 If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/31691-the-lion-warrior-kit-formerly-zulu-still-a-ranger/">mod forum</a>.</br>
 
@@ -162,12 +172,13 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Renamed Setup-zulu.tp2 -> jl#zulu.tp2 to support AL|EN's "Project Infinity".
 - Added jl#zulu.ini metadata file to support AL|EN's "Project Infinity".
 - Lion pawn (jl#zpaw.itm): Added magical flag (BIT6), plus EE: Forbid off-hand weapon (BIT13) and EE/Ex: Undispellable (BIT24) according to the game.
-- Shapeshift: Lion ability (jl#zpoly.spl): Added ability description strref to fit EE games. Added Ignore dead/wild magic (BIT14) EE:Ex Castable when silences (BIT25).
+- Shapeshift: Lion ability (jl#zpoly.spl): Added ability description strref to fit EE games. Added Ignore dead/wild magic (BIT14) and EE:Ex Castable when silences (BIT25).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 - Reorganized component (DESIGNATED number).
 - Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 - Replaced AUTHOR keyword with SUPPORT.
--- Updated French and English translations (Gwendolyne).
+- Added VERSION flag.
+- Updated French and English translations (Gwendolyne).
 
 ## 
 
