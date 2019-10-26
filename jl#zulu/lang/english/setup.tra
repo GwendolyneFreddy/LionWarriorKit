@@ -1,0 +1,34 @@
+@1  = ~Lion Warrior ranger kit~
+@2  = ~This mod is not available for your game.~
+@3  = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+
+@11 = ~lion warrior~
+@12 = ~Lion Warrior~
+@13 = ~LION WARRIOR: This ranger follows traditions handed down by the Lion Tribes of Shaar, combining deadly fighting ability with unmatched wilderness survival skills and a particularly strong connection with Nature. He disdains missile weapons, but few can match his strength in melee.
+
+Advantages:
+- +2 bonus to Armor Class at 1st level, plus an additional +2 bonus at 15th level.
+- +1 bonus to hit and damage rolls every 10 levels (starting at 1st level).
+- 13th level: May shapeshift into the form of a lion once per day. Gains one additional use every 5 levels thereafter.
+- May memorize two extra spells of each level.
+- May attain the highest level of mastery in any melee weapon.
+
+Disadvantages:
+- May not use missile weapons
+- May not wear armor
+- May not wear gauntlets or bracers
+- Does not gain the ranger's Charm Animal ability~
+
+@21 = ~Shapeshift: Lion~
+@22 = ~Shapeshift: Lion
+This ability allows the character to polymorph into a lion.
+
+Strength: 19
+Dexterity: 22
+
+Base Armor Class: -5
+Number of Attacks: 3
+Attack Damage: 1d12+3 (piercing), strikes as +3 weapon~
+
+@23 = ~Lion~
+@24 = ~Attack~ // = #10349 and #10966
